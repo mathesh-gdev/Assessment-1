@@ -1,7 +1,7 @@
 # Mathesh | Personal Profile Website 🌐
 
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://vercel.com)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Active-blue?style=for-the-badge&logo=github)](https://github.com/mathesh-gdev)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Live_Demo-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://personal-portfolio-pi-taupe.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/mathesh-gdev/Assessment-1)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

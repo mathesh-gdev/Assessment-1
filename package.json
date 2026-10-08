@@ -1,0 +1,24 @@
+{
+  "name": "mathesh-portfolio",
+  "version": "1.0.0",
+  "description": "Personal profile website featuring a clean iOS liquid glass water UI theme",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "start": "serve . -l 3000",
+    "build": "echo 'Static assets ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "computer-science",
+    "glassmorphism",
+    "ios-ui",
+    "frontend"
+  ],
+  "author": "Mathesh",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

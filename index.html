@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathesh | Computer Science & Software Developer</title>
+  <meta name="description"
+    content="Personal portfolio of Mathesh - Computer Science student, Full-Stack Developer proficient in Python, React, TypeScript, C++, and SQL.">
+  <meta name="keywords" content="Mathesh, Computer Science, Full Stack Developer, React, Python, Portfolio, Karaikudi">
+  <meta name="author" content="Mathesh">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Mathesh | Personal Profile Website">
+  <meta property="og:description"
+    content="Explore my portfolio, skills in Python, React, TypeScript, and software development projects.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="theme-aqua">
+  <!-- Dynamic Liquid Water Mesh Background -->
+  <div class="water-canvas" aria-hidden="true">
+    <div class="water-orb orb-1"></div>
+    <div class="water-orb orb-2"></div>
+    <div class="water-orb orb-3"></div>
+    <div class="water-orb orb-4"></div>
+    <div class="liquid-glare"></div>
+  </div>
+
+  <!-- Cinematic Liquid Typography Curtain Loader -->
+  <div id="loader" class="cinema-loader" aria-hidden="true">
+    <div class="cinema-ambient-lens"></div>
+    <div class="cinema-frame">
+      <div class="cinema-eyebrow">PORTFOLIO &bull; 2026</div>
+      <h1 class="cinema-name">MATHESH</h1>
+      <div class="cinema-tagline">COMPUTER SCIENCE &bull; FULL-STACK DEVELOPER</div>
+      <div class="cinema-laser-line">
+        <div class="cinema-laser-fill" id="loaderFill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main App Shell -->
+  <main class="app-viewport">
+
+    <!-- Floating Glass Island Navigation -->
+    <nav class="floating-dock" aria-label="Main Navigation">
+      <a href="#hero" class="dock-item active" data-nav="hero" aria-label="Home section">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        <span>Profile</span>
+      </a>
+      <a href="#about" class="dock-item" data-nav="about" aria-label="About section">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        <span>About</span>
+      </a>
+      <a href="#skills" class="dock-item" data-nav="skills" aria-label="Skills section">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        <span>Skills</span>
+      </a>
+      <a href="#contact" class="dock-item" data-nav="contact" aria-label="Contact section">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span>Contact</span>
+      </a>
+    </nav>
+
+    <!-- Content Bento Grid Layout -->
+    <div class="content-container">
+
+      <!-- SECTION 1: HERO GLASS WIDGET -->
+      <section class="glass-card hero-widget tilt-card" id="hero">
+        <div class="glass-reflection"></div>
+        <div class="hero-top-row">
+          <div class="available-badge">
+            <span class="status-pulse-ring"></span>
+            <span class="status-dot"></span>
+            <span>Available for Opportunities</span>
+          </div>
+
+          <div class="location-badge">
+            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" fill="none" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Karaikudi, Tamil Nadu</span>
+          </div>
+        </div>
+
+        <div class="hero-body">
+          <div class="sub-label">HELLO, I AM</div>
+          <h1 class="hero-title">Mathesh</h1>
+          <p class="hero-subtitle">Computer Science Student &amp; Aspiring Software Engineer</p>
+          <p class="hero-bio">
+            Passionate about architecting clean web experiences, solving algorithmic challenges,
+            and turning creative ideas into functional code with Python, React, and modern tech stacks.
+          </p>
+
+          <div class="action-buttons-row">
+            <a href="#contact" class="btn-primary glass-btn">
+              <span>Get In Touch</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="https://github.com/mathesh-gdev" target="_blank" rel="noopener noreferrer"
+              class="btn-secondary glass-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/mathesh-g-dev/" target="_blank" rel="noopener noreferrer"
+              class="btn-secondary glass-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Stats Pill Row -->
+        <div class="hero-stats-row">
+          <div class="stat-pill">
+            <span class="stat-num">CS</span>
+            <span class="stat-desc">Core Discipline</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">8+</span>
+            <span class="stat-desc">Core Tech Stack</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">100%</span>
+            <span class="stat-desc">Growth Mindset</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: ABOUT ME WIDGET -->
+      <section class="glass-card about-widget tilt-card" id="about">
+        <div class="glass-reflection"></div>
+        <div class="card-header">
+          <div class="card-icon-bubble">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" fill="none" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <div>
+            <h2 class="card-title">About Me</h2>
+            <p class="card-subtitle">Background &amp; Aspirations</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p>
+            I am a dedicated <strong>Computer Science student</strong> based in Karaikudi, Tamil Nadu.
+            My journey in tech revolves around understanding how systems work from the foundational level
+            and transforming complex problems into elegant, real-world digital solutions.
+          </p>
+          <p>
+            Whether it's writing robust backend logic in <strong>Python</strong> and <strong>C++</strong>,
+            querying relational databases using <strong>SQL</strong>, or building intuitive, fluid client-side
+            interfaces
+            with <strong>React</strong> and <strong>TypeScript</strong>, I continuously strive to blend
+            algorithmic precision with modern user experience design.
+          </p>
+
+          <div class="values-grid">
+            <div class="value-item">
+              <div class="value-dot"></div>
+              <div>
+                <strong>Curious Learner</strong>
+                <p>Constantly exploring modern frameworks, AI tools, and system design.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-dot"></div>
+              <div>
+                <strong>Clean Code Advocate</strong>
+                <p>Committed to readable, maintainable, and well-structured software.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-dot"></div>
+              <div>
+                <strong>Collaborative Spirit</strong>
+                <p>Eager to contribute, learn within fast-paced internship teams, and deliver impact.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: SKILLS WIDGET (CONTROL CENTER STYLE) -->
+      <section class="glass-card skills-widget tilt-card" id="skills">
+        <div class="glass-reflection"></div>
+        <div class="card-header">
+          <div class="card-icon-bubble">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" fill="none" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+              </path>
+            </svg>
+          </div>
+          <div>
+            <h2 class="card-title">Technical Expertise</h2>
+            <p class="card-subtitle">Tools, Languages &amp; Frameworks</p>
+          </div>
+        </div>
+
+        <div class="skills-categories-wrapper">
+          <!-- Programming Languages -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-tag">CORE LANGUAGES</span>
+            </div>
+            <div class="tags-cluster">
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">Python</span>
+                <span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">C++</span>
+                <span class="skill-level">Algorithms</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">TypeScript</span>
+                <span class="skill-level">Typed Web</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">ES6+</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">SQL</span>
+                <span class="skill-level">Databases</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web & UI Development -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-tag">FRONTEND &amp; UI</span>
+            </div>
+            <div class="tags-cluster">
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">React.js</span>
+                <span class="skill-level">SPA &amp; Hooks</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">HTML5</span>
+                <span class="skill-level">Semantic</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">CSS3 / Modern UI</span>
+                <span class="skill-level">Designing</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">Responsive Design</span>
+                <span class="skill-level">Mobile First</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Developer Tools & Concepts -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-tag">DEVELOPER TOOLS &amp; WORKFLOW</span>
+            </div>
+            <div class="tags-cluster">
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-level">Version Control</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">Data Structures</span>
+                <span class="skill-level">Problem Solving</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">AI Web Building</span>
+                <span class="skill-level">No-Code / GenAI</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-accent"></span>
+                <span class="skill-name">RESTful APIs</span>
+                <span class="skill-level">Integration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: CONTACT & REACH OUT WIDGET -->
+      <section class="glass-card contact-widget tilt-card" id="contact">
+        <div class="glass-reflection"></div>
+        <div class="card-header">
+          <div class="card-icon-bubble">
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" fill="none" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+          </div>
+          <div>
+            <h2 class="card-title">Contact &amp; Connect</h2>
+            <p class="card-subtitle">Let's talk code, projects, or collaborations</p>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Interactive Quick Contact Cards -->
+          <div class="contact-methods">
+
+            <!-- Email Card with Copy Trigger -->
+            <div class="contact-item-card glass-inner-card">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="method-info">
+                <span class="method-label">Direct Email</span>
+                <span class="method-value" id="emailVal">matheshgdev@gmail.com</span>
+              </div>
+              <div class="method-actions">
+                <a href="mailto:matheshgdev@gmail.com" class="action-icon-btn" title="Send Email">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </a>
+                <button class="action-icon-btn copy-btn" data-copy="matheshgdev@gmail.com" title="Copy Email">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Phone Card with Copy Trigger -->
+            <div class="contact-item-card glass-inner-card">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div class="method-info">
+                <span class="method-label">Phone / WhatsApp</span>
+                <span class="method-value">+91 8270420875</span>
+              </div>
+              <div class="method-actions">
+                <a href="tel:+918270420875" class="action-icon-btn" title="Call">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </a>
+                <button class="action-icon-btn copy-btn" data-copy="+918270420875" title="Copy Number">
+                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Social Links Row -->
+            <div class="social-links-grid">
+              <a href="https://www.linkedin.com/in/mathesh-g-dev/" target="_blank" rel="noopener noreferrer"
+                class="social-glass-tile">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+                <span>Connect on LinkedIn</span>
+                <span class="external-arrow">&nearr;</span>
+              </a>
+
+              <a href="https://github.com/mathesh-gdev" target="_blank" rel="noopener noreferrer"
+                class="social-glass-tile">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>Follow on GitHub</span>
+                <span class="external-arrow">&nearr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Interactive Glass Form -->
+          <div class="contact-form-card glass-inner-card">
+            <h3 class="form-title">Send a Direct Note</h3>
+            <p class="form-desc">Have a question or opportunity? Drop me a quick message.</p>
+
+            <form id="contactForm" class="glass-form" onsubmit="return false;">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="glass-input" placeholder="e.g. Alex / Tech Recruiter"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Your Email</label>
+                <input type="email" id="senderEmail" class="glass-input" placeholder="name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message</label>
+                <textarea id="senderMessage" class="glass-textarea" rows="3"
+                  placeholder="Hello Mathesh, let's connect..." required></textarea>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn-primary glass-btn full-width">
+                <span>Send Note</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Branding -->
+      <footer class="app-footer">
+        <div class="footer-glass-pill">
+          <p>&copy; 2026 Mathesh &bull; Designed with Passion</p>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <!-- iOS Floating Toast Container -->
+  <div class="ios-toast" id="iosToast" role="alert" aria-live="polite">
+    <div class="toast-icon">
+      <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" fill="none" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
+    <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

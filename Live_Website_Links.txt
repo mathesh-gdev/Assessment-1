@@ -1,0 +1,24 @@
+================================================================================
+MATHESH - PERSONAL PROFILE WEBSITE
+ASSESSMENT 1 DELIVERABLES & LIVE LINKS
+================================================================================
+
+1. LIVE WEBSITE URL:
+   https://personal-portfolio-pi-taupe.vercel.app/
+
+2. GITHUB REPOSITORY URL:
+   https://github.com/mathesh-gdev/Assessment-1
+
+3. PROJECT DETAILS:
+   - Developer: Mathesh
+   - Field: Computer Science
+   - Location: Karaikudi, Tamil Nadu
+   - Tech Stack: HTML5, CSS3, JavaScript (Clean iOS Liquid Glass Water UI)
+   - Hosting: Vercel (Global Edge Network) + GitHub
+   - Key Features:
+     * Liquid Frosted Glass UI with dynamic refraction & specular highlights
+     * Cinematic Liquid Typography reveal curtain loader
+     * Responsive iOS bottom tab bar navigation (desktop & mobile)
+     * Interactive Technical Skills Control Center Bento Grid
+     * 1-Click Copy-to-Clipboard for Email & Mobile with iOS glass toasts
+================================================================================

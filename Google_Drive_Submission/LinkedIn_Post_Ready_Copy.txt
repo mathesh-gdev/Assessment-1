@@ -1,0 +1,33 @@
+================================================================================
+INAMIGOS INTERNSHIP - ASSESSMENT 1
+LINKEDIN POST TEMPLATE (READY TO COPY & PASTE)
+================================================================================
+
+Step 1: Open LinkedIn and start a new post.
+Step 2: Copy and paste the text below.
+Step 3: Attach "1_Website_Desktop_Live.png" to the post.
+Step 4: Tag "@InAmigos Foundation" (make sure the official tag dropdown is selected).
+Step 5: Publish the post and take a screenshot of it (save as "5_LinkedIn_Post_Screenshot.png").
+
+--------------------------------------------------------------------------------
+POST CAPTION:
+--------------------------------------------------------------------------------
+
+Excited to share my personal profile website built for my internship assessment! 🚀
+
+I engineered this portfolio with a clean iOS liquid glass water UI theme, featuring:
+✨ Fluid glassmorphism design with specular reflections
+✨ Cinematic liquid typography curtain reveal loader
+✨ Responsive iOS bottom tab bar navigation
+✨ Interactive technical skills matrix (Python, React, TypeScript, C++, SQL)
+
+🌐 Live Website Link:
+https://personal-portfolio-pi-taupe.vercel.app/
+
+💻 GitHub Repository:
+https://github.com/mathesh-gdev/Assessment-1
+
+Grateful to @InAmigos Foundation for this learning experience and milestone!
+
+#InAmigosFoundation #Internship #WebDevelopment #Frontend #Portfolio #ComputerScience #Vercel #OpenToWork
+================================================================================
